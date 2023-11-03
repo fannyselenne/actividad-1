@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #dacccc; 
+        }
+       
+        .bg-custom {
+            background-color: #b48273; 
+        }
+        .text-custom {
+            color: #f0b19e;
+        }
+        .jumbotron {
+            background-image: url('https://images.unsplash.com/photo-1505740420928-5a591733be5b'); /* Replace with education-related image URL */
+            background-size: cover;
+            background-position: center;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .card {
+            background-color: #dbdbdbb9; 
+            border: 1px solid #0c0c0c; 
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">FANNY SELENNE RIVADENEIRA RIVADENEIRA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>           
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Bienvenido a mi sitio web</h1>
+                <p>Este es un ejemplo sencillo de una página web creada usando Bootstrap 5.</p>
+                <button type="button" class="btn btn-primary">Aprende más</button>
+            </div>
+            <div class="col-md-6">
+                <img src="https://pixabay.com/get/g4d79b90df2a1b9e76533e1ed1fbf689e45380502551076af796ea0162664d4ca36e9bf6a93a4327dbfc304ba479fd000.jpg" alt="Imagen de educación" class="img-fluid">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card bg-custom">
+                    <img src="https://pixabay.com/get/g10e11e23d046dfa2f79c9e4b508bc23905fb41a16825beab299275675b5ae64741275211574d12301cc032dc60c8b593.jpg" class="card-img-top" alt="Imagen de educación">
+                    <div class="card-body">
+                        <h5 class="card-title text-custom">Aprendizaje en línea</h5>
+                        <p class="card-text">El aprendizaje en línea es una forma flexible y accesible de adquirir conocimientos y habilidades desde cualquier lugar con conexión a internet.</p>
+                        <a href="#" class="btn btn-primary">Aprende más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-custom">
+                    <img src="https://pixabay.com/get/g24c30e9cb4d068b45161a8a163d527e2621980e29ed68a8dbc8c2fec648fb14c3ebf05bf810b5b36540a07abf90f8f67.svg" class="card-img-top" alt="Imagen de educación">
+                    <div class="card-body">
+                        <h5 class="card-title text-custom">Recursos educativos</h5>
+                        <p class="card-text">Los recursos educativos, como libros, videos y aplicaciones, pueden ayudarte a expandir tus conocimientos y habilidades en diversas áreas.</p>
+                        <a href="#" class="btn btn-primary">Aprende más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-custom">
+                    <img src="https://pixabay.com/get/gce082c39fe94c752fa2df6007c244f7739527db1aedb00e6fc327079c585f8e1eaaedabd672af1add82612fd634bacc5.jpg" class="card-img-top" alt="Imagen de educación">
+                    <div class="card-body">
+                        <h5 class="card-title text-custom">Formación continua</h5>
+                        <p class="card-text">La formación continua te permite seguir aprendiendo y mejorando tus habilidades a lo largo de tu vida profesional y personal.</p>
+                        <a href="#" class="btn btn-primary">Aprende más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
